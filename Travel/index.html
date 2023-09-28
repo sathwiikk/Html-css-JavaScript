@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">ADVENTURE</h1>
+            <ul class="nav-links">
+                <li class="active"><a href="#"></a>Home</li>
+                <li><a href="#"></a>Tours</li>
+                <li><a href="#"></a>Explore</li>
+                <li><a href="#"></a>About</li>
+                <li class="ctn"><a href="#"></a>Contact</li>
+            </ul>
+            <img src="./images/menu-btn.png" alt="" class="menu-btn">
+        </nav>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./images/img1.png" alt=""/>
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat beatae est quia placeat qui, molestias minima amet eius, harum cumque odit quis, dicta asperiores doloribus corrupti. Similique, animi? Eligendi, ad!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./images/img2.png" alt=""/>
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat beatae est quia placeat qui, molestias minima amet eius, harum cumque odit quis, dicta asperiores doloribus corrupti. Similique, animi? Eligendi, ad!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero delectus rerum voluptas a ipsum quasi labore provident repellat nobis dignissimos aliquid quisquam obcaecati alias, atque, asperiores magni quis voluptatum sunt!</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, corporis. Nulla blanditiis, soluta necessitatibus ad asperiores culpa facilis eum perferendis quibusdam maxime ex eligendi numquam molestias quaerat autem! Laborum, dolorum!</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./images/img3.png" alt="">
+                    <img src="./images/img4.png" alt="">
+                    <img src="./images/img5.png" alt="">
+                    <img src="./images/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit illum illo tempore nulla voluptate adipisci deserunt, vel laborum nobis obcaecati deleniti molestias, sint nam natus expedita, cumque nesciunt unde. Necessitatibus!</p>
+        <p>Copyrigth @ 2023 Outdoor Adventure</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    
+</body>
+</html>
